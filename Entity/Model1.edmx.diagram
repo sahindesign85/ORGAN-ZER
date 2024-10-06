@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ddd2a9af17a944fa8415bbe1b9eb39f6" Name="Diagram1" ZoomLevel="91">
+        <EntityTypeShape EntityType="istakipModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="istakipModel.TblAdmin" Width="1.5" PointX="0.75" PointY="7.75" />
+        <EntityTypeShape EntityType="istakipModel.TblDepartmanlar" Width="1.5" PointX="0.75" PointY="3.875" />
+        <EntityTypeShape EntityType="istakipModel.TblFirmalar" Width="1.5" PointX="7.75" PointY="8.75" />
+        <EntityTypeShape EntityType="istakipModel.TblGorevDetaylar" Width="1.5" PointX="7.5" PointY="5.75" />
+        <EntityTypeShape EntityType="istakipModel.TblGorevler" Width="1.5" PointX="5.25" PointY="5.5" />
+        <EntityTypeShape EntityType="istakipModel.TblPersonel" Width="1.5" PointX="3" PointY="3" />
+        <EntityTypeShape EntityType="istakipModel.TblSatinalmaTeklif" Width="1.5" PointX="5.25" PointY="1.125" />
+        <AssociationConnector Association="istakipModel.FK_TblPersonel_TblDepartmanlar1" />
+        <AssociationConnector Association="istakipModel.FK_TblGorevDetaylar_TblGorevler" />
+        <AssociationConnector Association="istakipModel.FK_TblGorevler_TblPersonel" />
+        <AssociationConnector Association="istakipModel.FK_TblGorevler_TblPersonel1" />
+        <AssociationConnector Association="istakipModel.FK_TblSatinalmaTeklif_TblPersonel" />
+        <EntityTypeShape EntityType="istakipModel.TblFirmaCari" Width="1.5" PointX="3.375" PointY="10" />
+        <AssociationConnector Association="istakipModel.FK_TblSatinalmaTeklif_TblFirmaCari" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
